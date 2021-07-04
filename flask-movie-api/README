@@ -1,0 +1,9 @@
+# Activate virtual environment
+pipenv shell
+
+# Set the environment variables
+export FLASK_APP=api
+export FLASK_DEBUG=1
+
+# Run Flask Server
+flask run
